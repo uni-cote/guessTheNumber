@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Угадай число</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1 data-game-info>Угадай число между 1 и 100</h1>
+        <div class="guess-section">
+            <input class="action-btn" type="number" data-input-number placeholder="Твой выбор?">
+            <button class="action-btn" data-action-btn>Угадать</button>
+        </div>
+        
+        <div class="settings-section" data-container>
+            <h2>Настройки</h2>
+            <div class="settings-input">
+                <label for="maxNumber">Максимальное число:</label>
+                <input class="action-btn" type="number" id="maxNumber" data-input-max-number value="100">
+                <button class="action-btn settings-btn" data-settings-btn>Подтвердить</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
